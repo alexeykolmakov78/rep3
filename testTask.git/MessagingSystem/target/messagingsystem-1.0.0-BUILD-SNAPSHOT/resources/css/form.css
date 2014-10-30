@@ -1,0 +1,62 @@
+body,form {
+	font: normal 14px/100% Verdana, Tahoma, sans-serif;
+	color: #999999;
+}
+
+input,select {
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 14px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF;
+}
+
+textarea {
+	padding: 9px;
+	width: 700px;
+	height: 300px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 14px/100% Verdana, Tahoma, sans-serif;
+	background: #FFFFFF;
+}
+
+input:hover,textarea:hover,input:focus,textarea:focus {
+	border-color: #C9C9C9;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+input {
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 14px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF;
+}
+
+.button input,.submit input {
+	width: auto;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:active,a:hover {
+	color: red;
+	text-decoration: none;
+}
